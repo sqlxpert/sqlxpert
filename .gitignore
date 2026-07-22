@@ -1,0 +1,7 @@
+# github.com/sqlxpert/sqlxpert  GFDLv1.3  Copyright Paul Marcelin
+
+# Markdown preview
+*.html
+
+# Internal use only
+annex/
