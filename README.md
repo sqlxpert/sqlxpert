@@ -1,13 +1,13 @@
 <!-- markdownlint-disable MD041 -->
 <!-- Match Pinned text fragment prefix- to last word, below. -->
 Jump to:
-[**Pinned&nbsp;repos**](https://github.com/sqlxpert#:~:text=welcome.-,Pinned)
+[**Pinned&nbsp;repos**](https://github.com/sqlxpert#:~:text=users.-,Pinned)
 &bull;
 [**All&nbsp;repos&nbsp;&nearr;**](https://github.com/sqlxpert?tab=repositories&q=&type=&language=&sort=stargazers)
 &bull;
 [**Contribution&nbsp;graph**](https://github.com/sqlxpert#:~:text=contributions,in%20the%20last%20year)
 &bull;
-[**Blog**](https://sqlxpert.github.io)
+[**Blog**&nbsp;&nearr;](https://sqlxpert.github.io)
 <!-- markdownlint-enable MD041 -->
 
 # Paul Marcelin
@@ -100,7 +100,5 @@ So you can evaluate my technical skills efficiently, I've organized short, focus
 
 </details>
 
-I've been writing enterprise-quality open-source AWS utility software since 2017. GitHub serves as **proof&nbsp;of&nbsp;work**: revision history plus evidence of real users. Conversely, drawn-out corporate interview processes waste time. My limit is 3&nbsp;interviews totaling 3&nbsp;hours over 3&nbsp;weeks.
-
->Thank you for reviewing samples of my work that interest you. I hope you'll find my open-source software useful, whether you hire me or not. Your suggestions are welcome.
+I've been writing enterprise-quality open-source AWS utility software since 2017. GitHub serves as **proof&nbsp;of&nbsp;work**: revision history plus evidence of real users.
 <!-- If last word changes, update Pinned text fragment prefix- above. -->
