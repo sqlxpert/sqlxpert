@@ -20,11 +20,10 @@ Current AWS&nbsp;certifications in
 
 ## Technical Skills
 
-I've been writing enterprise-quality open-source AWS utility software since 2017. GitHub serves as **proof of work**: revision history plus evidence of real users.
+I've been writing enterprise-quality open-source AWS utility software since 2017. GitHub provides **proof of work**: revision history plus evidence of real users.
 
 So you can evaluate my technical skills, I've organized short, focused excerpts of my work by topic:
 
-<a id="skills-matrix" />
 <details>
   <summary>Skills Matrix</summary>
 
@@ -33,7 +32,7 @@ So you can evaluate my technical skills, I've organized short, focused excerpts 
 Jump to:
 [Terraform](#advanced-terraform)
 &bull;
-[Containers/Docker](#containers-docker)
+[Containers/Docker](#containersdocker)
 &bull;
 [IAM](#advanced-iam)
 
