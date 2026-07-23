@@ -1,13 +1,13 @@
 <!-- markdownlint-disable MD041 -->
 <!-- Match Pinned text fragment prefix- to last word, below. -->
 Jump to:
-[**Pinned&nbsp;repos**](https://github.com/sqlxpert#:~:text=policy-,Pinned)
+[Pinned&nbsp;repos](https://github.com/sqlxpert#:~:text=policy-,Pinned)
 &bull;
-[**All&nbsp;repos&nbsp;&nearr;**](https://github.com/sqlxpert?tab=repositories&q=&type=&language=&sort=stargazers)
+[All&nbsp;repos&nbsp;&nearr;](https://github.com/sqlxpert?tab=repositories&q=&type=&language=&sort=stargazers)
 &bull;
-[**Contribution&nbsp;graph**](https://github.com/sqlxpert#:~:text=contributions,in%20the%20last%20year)
+[Contribution&nbsp;graph](https://github.com/sqlxpert#:~:text=contributions,in%20the%20last%20year)
 &bull;
-[**Blog&nbsp;&nearr;**](https://sqlxpert.github.io)
+[Blog&nbsp;&nearr;](https://sqlxpert.github.io)
 <!-- markdownlint-enable MD041 -->
 
 Software engineer focused on cloud infrastructure since&nbsp;2013. Professional relational database experience since&nbsp;1996. Professional programming and Unix/Linux experience since&nbsp;1993. Leadership and business skills from consulting work and an MBA. Training, motivation, team-building, and evaluation skills from past service as a teacher. Past AWS&nbsp;certifications in
@@ -26,7 +26,16 @@ So you can evaluate my technical skills, I've organized short, focused excerpts 
 
 <a id="skills-matrix" />
 <details>
-  <summary>SKILLS MATRIX</summary>
+  <summary>Skills Matrix</summary>
+
+<br/>
+
+Jump to:
+[Terraform](#advanced-terraform)
+&bull;
+[Containers/Docker](#containers-docker)
+&bull;
+[IAM](#advanced-iam)
 
 ### Advanced Terraform
 
