@@ -3,7 +3,7 @@
 Jump to:
 [Pinned&nbsp;repos](https://github.com/sqlxpert#:~:text=policy-,Pinned)
 &bull;
-[All&nbsp;repos&nbsp;&nearr;](https://github.com/sqlxpert?tab=repositories&q=&type=&language=&sort=stargazers)
+<a target="_blank" href="https://github.com/sqlxpert?tab=repositories&q=&type=&language=&sort=stargazers">All&nbsp;repos&nbsp;&nearr;</a>
 &bull;
 [Contribution&nbsp;graph](https://github.com/sqlxpert#:~:text=contributions,in%20the%20last%20year)
 &bull;
