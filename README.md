@@ -1,16 +1,14 @@
 <!-- markdownlint-disable MD041 -->
 <!-- Match Pinned text fragment prefix- to last word, below. -->
 Jump to:
-[**Pinned&nbsp;repos**](https://github.com/sqlxpert#:~:text=users.-,Pinned)
+[**Pinned&nbsp;repos**](https://github.com/sqlxpert#:~:text=policy-,Pinned)
 &bull;
 [**All&nbsp;repos&nbsp;&nearr;**](https://github.com/sqlxpert?tab=repositories&q=&type=&language=&sort=stargazers)
 &bull;
 [**Contribution&nbsp;graph**](https://github.com/sqlxpert#:~:text=contributions,in%20the%20last%20year)
 &bull;
-[**Blog**&nbsp;&nearr;](https://sqlxpert.github.io)
+[**Blog&nbsp;&nearr;**](https://sqlxpert.github.io)
 <!-- markdownlint-enable MD041 -->
-
-# Paul Marcelin
 
 Software engineer focused on cloud infrastructure since&nbsp;2013. Professional relational database experience since&nbsp;1996. Professional programming and Unix/Linux experience since&nbsp;1993. Leadership and business skills from consulting work and an MBA. Training, motivation, team-building, and evaluation skills from past service as a teacher. Past AWS&nbsp;certifications in
 [DevOps](https://www.credly.com/badges/e36427dd-92d6-439e-8afd-a66564d1f95d)
@@ -22,13 +20,13 @@ Current AWS&nbsp;certifications in
 
 ## Technical Skills
 
-So you can evaluate my technical skills efficiently, I've organized short, focused excerpts of my work by topic:
+I've been writing enterprise-quality open-source AWS utility software since 2017. GitHub serves as **proof of work**: revision history plus evidence of real users.
+
+So you can evaluate my technical skills, I've organized short, focused excerpts of my work by topic:
 
 <a id="skills-matrix" />
 <details>
   <summary>SKILLS MATRIX</summary>
-
----
 
 ### Advanced Terraform
 
@@ -92,13 +90,6 @@ So you can evaluate my technical skills efficiently, I've organized short, focus
     in a response to a user
   - [CloudFormation parameter](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L136-L144)
   - [Insertion into IAM policy](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L672)
-
-[&UpArrowBar;&nbsp;Top of skills matrix](#skills-matrix)
-(in case you want to close it)
-
----
-
 </details>
 
-I've been writing enterprise-quality open-source AWS utility software since 2017. GitHub serves as **proof&nbsp;of&nbsp;work**: revision history plus evidence of real users.
 <!-- If last word changes, update Pinned text fragment prefix- above. -->
