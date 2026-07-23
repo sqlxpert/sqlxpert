@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD041 -->
+<!-- Match Pinned text fragment prefix- to last word, below. -->
 Jump to:
 [**Pinned&nbsp;repos**](https://github.com/sqlxpert#:~:text=welcome.-,Pinned)
-<!-- Match prefix- to last word, below. -->
 &bull;
 [**All&nbsp;repos&nbsp;&nearr;**](https://github.com/sqlxpert?tab=repositories&q=&type=&language=&sort=stargazers)
 &bull;
