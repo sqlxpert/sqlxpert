@@ -1,6 +1,7 @@
 <!-- markdownlint-disable MD041 -->
 Jump to:
-[**Pinned&nbsp;repos**](https://github.com/sqlxpert#:~:text=graph-,Pinned)
+[**Pinned&nbsp;repos**](https://github.com/sqlxpert#:~:text=welcome.-,Pinned)
+<!-- Match prefix- to last word, below. -->
 &bull;
 [**All&nbsp;repos&nbsp;&nearr;**](https://github.com/sqlxpert?tab=repositories&q=&type=&language=&sort=stargazers)
 &bull;
@@ -102,3 +103,4 @@ So you can evaluate my technical skills efficiently, I've organized short, focus
 I've been writing enterprise-quality open-source AWS utility software since 2017. GitHub serves as **proof&nbsp;of&nbsp;work**: revision history plus evidence of real users. Conversely, drawn-out corporate interview processes waste time. My limit is 3&nbsp;interviews totaling 3&nbsp;hours over 3&nbsp;weeks.
 
 >Thank you for reviewing samples of my work that interest you. I hope you'll find my open-source software useful, whether you hire me or not. Your suggestions are welcome.
+<!-- If last word changes, update Pinned text fragment prefix- above. -->
