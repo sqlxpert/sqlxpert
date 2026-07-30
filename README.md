@@ -160,8 +160,7 @@ Jump to:
 - Diagnosing and
   [fixing race conditions](https://github.com/sqlxpert/stay-stopped-aws-rds-aurora#perspective:~:text=idempotence%2C%20race%20conditions,latent%20bugs...)
   (timing bugs)
-- Assessing idempotence:
-  ["5&nbsp;AWS&nbsp;Services, 5&nbsp;Different&nbsp;Approaches to Idempotence"](https://builder.aws.com/content/2xTBvqInpTdbmC91IDT1hFeZQMQ/5-aws-services-5-different-approaches-to-idempotence)
+- ["5&nbsp;AWS&nbsp;Services, 5&nbsp;Different&nbsp;Approaches to Idempotence"](https://builder.aws.com/content/2xTBvqInpTdbmC91IDT1hFeZQMQ/5-aws-services-5-different-approaches-to-idempotence)
 - [Rejecting the legacy AWS SDK retry mode](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L225),
   years
   [in&nbsp;advance](https://aws.amazon.com/blogs/developer/announcing-updated-retry-behavior-for-aws-sdks-and-tools/#:~:text=currently%20default%20to,mode)
