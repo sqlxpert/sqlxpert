@@ -12,7 +12,7 @@ Jump to:
 
 ## Skills Matrix
 
-<details open="true">
+<details>
   <summary>Skills Matrix</summary>
 
 <br/>
