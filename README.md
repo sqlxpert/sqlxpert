@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD041 -->
 <!-- Match Pinned text fragment prefix- to last word, below. -->
 Jump to:
-[Pinned&nbsp;repos](https://github.com/sqlxpert#:~:text=documentation.-,Pinned)
+[Pinned&nbsp;repos](https://github.com/sqlxpert#:~:text=orchestration.-,Pinned)
 &bull;
 [Contribution&nbsp;graph](https://github.com/sqlxpert#:~:text=contributions,in%20the%20last%20year)
 &bull;
@@ -10,25 +10,12 @@ Jump to:
 [Blog&nbsp;&nearr;](https://sqlxpert.github.io)
 <!-- markdownlint-enable MD041 -->
 
-## Skills Matrix
+## Competencies
 
-<details>
-  <summary>Skills Matrix</summary>
+<details name="competencies">
+  <summary>Terraform</summary>
 
 <br/>
-
-Jump to:
-[Terraform](#terraform)
-&bull;
-[Containers/Docker](#containersdocker)
-&bull;
-[Python](#python)
-&bull;
-[IAM](#iam)
-&bull;
-[CloudFormation](#cloudformation)
-
-### Terraform
 
 - Secure private network:
   - An editable
@@ -55,41 +42,38 @@ Jump to:
   Most users
   [forget `versionID`](https://github.com/cloudposse/terraform-aws-cloudformation-stack/blob/ce3265a/README.md?plain=1#L68)&nbsp;.
 
-### Containers/Docker
+</details>
 
-- A simple
-  [container definition](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/main/python_docker/Dockerfile)
-  yields a
-  [secure](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws#innovations-and-best-practices:~:text=Secure%20Docker%20container)
-  and
-  [small](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws#innovations-and-best-practices:~:text=Small%20Docker%20container%20image)
-  image.
-- [Elastic Container Service](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/main/terraform/ecs.tf)
-  (ECS) and
-  [load balancing](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/main/terraform/elb.tf)
-  support scalable orchestration.
+<details name="competencies">
+  <summary>CloudFormation</summary>
 
-### Python
+<br/>
 
-- Object-oriented design:
-  - [Harmonizes AWS API inconsistencies](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L235-L461)
-    &mdash; method names, input argument names, input argument types (physical resource identifier versus ARN), input argument cardinalities, and output object keys;
-  - [Accommodates varied AWS resource types](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L464-L601);
-    and
-  - [Describes capabilities](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L607-L673)
-    succinctly and supports
-    [extensibility](https://github.com/sqlxpert/lights-off-aws/tree/main#extensibility:~:text=Extensibility%20details...).
-- OpenAPI provides a clear
-  [API&nbsp;specification](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/main/python_docker/hello_api.openapi.yaml)
-  and automatic input validation with
-  [minimal, focused code](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/1edaa6a/python_docker/hello_api.py#L160-L247).
-- Clear and consistent
-  [error-handling functions](https://github.com/sqlxpert/stay-stopped-aws-rds-aurora/blob/08bd58c/stay_stopped_aws_rds_aurora.py#L94-L264)
-- [Structured JSON logs](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L63-L98),
-  searchable by humans and readable by machines
-- [Self-documenting regular expression](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L26-L45)
+- The same template makes a single-account, single-region stack or a centrally-managed, multi-account, multi-region Stack**Set**:
+  - "Partial ARN"
+    [parameter formats](https://github.com/sqlxpert/lights-off-aws/blob/8fb1e8c/cloudformation/lights_off_aws.yaml#L302-L315)
+    are
+    [not specific to any region](https://github.com/sqlxpert/lights-off-aws/blob/8fb1e8c/cloudformation/lights_off_aws.yaml#L1000-L1003).
+  - 1&nbsp;template with
+    [conditions](https://github.com/sqlxpert/backup-events-aws/blob/fa043c0/cloudformation/backup_events_aws.yaml#L376-L378)
+    replaces
+    [3&nbsp;separate&nbsp;templates](https://github.com/aws-samples/aws-blog-automate-amazon-rds-cross-account-backups).
+- [Validation rules](https://github.com/sqlxpert/10-minute-aws-client-vpn/blob/f63ded4/cloudformation/10-minute-aws-client-vpn.yaml#L334-L387)
+  and a
+  [condition](https://github.com/sqlxpert/10-minute-aws-client-vpn/blob/f63ded4/cloudformation/10-minute-aws-client-vpn.yaml#L396-L398)
+  accommodate different kinds of inputs and different cardinalities.
+- A least-privilege
+  [CloudFormation service role](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/main/cloudformation/step_stay_stopped_aws_rds_aurora_prereq.yaml)
+  protects each stack and "confused deputy" risk.
+- [Placeholder parameters](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L10-L20)
+  help AWS&nbsp;Console users to name stacks and find documentation.
 
-### IAM
+</details>
+
+<details name="competencies">
+  <summary>IAM</summary>
+
+<br/>
 
 - Enforce KMS encryption in S3:
   - One central
@@ -121,26 +105,49 @@ Jump to:
   - [CloudFormation parameter](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L136-L144)
   - [Insertion into IAM policy](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L672)
 
-### CloudFormation
+</details>
 
-- The same template makes a single-account, single-region stack or a centrally-managed, multi-account, multi-region Stack**Set**:
-  - "Partial ARN"
-    [parameter formats](https://github.com/sqlxpert/lights-off-aws/blob/8fb1e8c/cloudformation/lights_off_aws.yaml#L302-L315)
-    are
-    [not specific to any region](https://github.com/sqlxpert/lights-off-aws/blob/8fb1e8c/cloudformation/lights_off_aws.yaml#L1000-L1003).
-  - 1&nbsp;template with
-    [conditions](https://github.com/sqlxpert/backup-events-aws/blob/fa043c0/cloudformation/backup_events_aws.yaml#L376-L378)
-    replaces
-    [3&nbsp;separate&nbsp;templates](https://github.com/aws-samples/aws-blog-automate-amazon-rds-cross-account-backups).
-- [Validation rules](https://github.com/sqlxpert/10-minute-aws-client-vpn/blob/f63ded4/cloudformation/10-minute-aws-client-vpn.yaml#L334-L387)
-  and a
-  [condition](https://github.com/sqlxpert/10-minute-aws-client-vpn/blob/f63ded4/cloudformation/10-minute-aws-client-vpn.yaml#L396-L398)
-  accommodate different kinds of inputs and different cardinalities.
-- A least-privilege
-  [CloudFormation service role](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/main/cloudformation/step_stay_stopped_aws_rds_aurora_prereq.yaml)
-  protects each stack and "confused deputy" risk.
-- [Placeholder parameters](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L10-L20)
-  help AWS&nbsp;Console users to name stacks and find documentation.
+<details name="competencies">
+  <summary>Python</summary>
+
+<br/>
+
+- Object-oriented design:
+  - [Harmonizes AWS API inconsistencies](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L235-L461)
+    &mdash; method names, input argument names, input argument types (physical resource identifier versus ARN), input argument cardinalities, and output object keys;
+  - [Accommodates varied AWS resource types](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L464-L601);
+    and
+  - [Describes capabilities](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L607-L673)
+    succinctly and supports
+    [extensibility](https://github.com/sqlxpert/lights-off-aws/tree/main#extensibility:~:text=Extensibility%20details...).
+- OpenAPI provides a clear
+  [API&nbsp;specification](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/main/python_docker/hello_api.openapi.yaml)
+  and automatic input validation with
+  [minimal, focused code](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/1edaa6a/python_docker/hello_api.py#L160-L247).
+- Clear and consistent
+  [error-handling functions](https://github.com/sqlxpert/stay-stopped-aws-rds-aurora/blob/08bd58c/stay_stopped_aws_rds_aurora.py#L94-L264)
+- [Structured JSON logs](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L63-L98),
+  searchable by humans and readable by machines
+- [Self-documenting regular expression](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L26-L45)
+
+</details>
+
+<details name="competencies">
+  <summary>Containers/Docker</summary>
+
+<br/>
+
+- A simple
+  [container definition](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/main/python_docker/Dockerfile)
+  yields a
+  [secure](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws#innovations-and-best-practices:~:text=Secure%20Docker%20container)
+  and
+  [small](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws#innovations-and-best-practices:~:text=Small%20Docker%20container%20image)
+  image.
+- [Elastic Container Service](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/main/terraform/ecs.tf)
+  (ECS) and
+  [load balancing](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/main/terraform/elb.tf)
+  support scalable orchestration.
 
 </details>
 
