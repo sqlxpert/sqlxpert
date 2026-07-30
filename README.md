@@ -3,9 +3,11 @@
 Jump to:
 [Pinned&nbsp;repos](https://github.com/sqlxpert#:~:text=orchestration.-,Pinned)
 &bull;
-[Contribution&nbsp;graph](https://github.com/sqlxpert#:~:text=contributions,in%20the%20last%20year)
+[Contribution&nbsp;graph](https://github.com/sqlxpert#:~:text=contributions,-in%20the%20last%20year)
 &bull;
 [All&nbsp;repos&nbsp;&nearr;](https://github.com/sqlxpert?tab=repositories&q=&type=&language=&sort=stargazers)
+&bull;
+[LinkedIn&nbsp;&nearr;](https://www.linkedin.com/in/marcelin)
 &bull;
 [Blog&nbsp;&nearr;](https://sqlxpert.github.io)
 <!-- markdownlint-enable MD041 -->
