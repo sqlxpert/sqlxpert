@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- Match Pinned text fragment prefix- to last word, below. -->
+<!-- Match Pinned text fragment prefix- to last displayed word, below. -->
 Jump to:
 [Pinned&nbsp;repos](https://github.com/sqlxpert#:~:text=orchestration.-,Pinned)
 &bull;
@@ -35,7 +35,7 @@ Jump to:
   [validation rule and error message](https://github.com/sqlxpert/lights-off-aws/blob/dfe86f7/terraform-multi/variables.tf#L33-L40)
 - [Intuitive defaults](https://github.com/sqlxpert/lights-off-aws/blob/dfe86f7/terraform-multi/variables.tf#L168-L169)
   with
-  [minimum code](https://github.com/sqlxpert/lights-off-aws/blob/dfe86f7/terraform-multi/locals.tf#L50-L57),
+  [minimal code](https://github.com/sqlxpert/lights-off-aws/blob/dfe86f7/terraform-multi/locals.tf#L50-L57),
   for an
   [AWS API data type](https://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/API_StackSetOperationPreferences.html#:~:text=either%20MaxConcurrentCount,not%20both)
   that can't be reduced to a Terraform HCL type specification
@@ -102,7 +102,7 @@ Jump to:
   (SCP)
 - [Restrict instead of rewriting](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/7fd4bfd/cloudformation/kafka_consumer.yaml#L377-L453)
   an AWS-managed policy, for self-documenting, maintainable least-privilege
-- IAM policy variables to avoid code duplication:
+- IAM policy variables avoid code duplication:
   - [Explanation with examples](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/issues/10#issuecomment-3919113672)
   - [CloudFormation parameter](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L136-L144)
   - [Insertion into IAM policy](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L672)
@@ -116,12 +116,11 @@ Jump to:
 
 - Object-oriented design:
   - [Harmonizes AWS API inconsistencies](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L235-L461)
-    &mdash; method names, input argument names, input argument types (physical resource identifier versus ARN), input argument cardinalities, and output object keys;
-  - [Accommodates varied AWS resource types](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L464-L601);
-    and
+    &mdash; method names; input argument names, types (ID versus ARN), and cardinality; and output object keys
+  - [Accommodates varied AWS resource types](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L464-L601)
   - [Describes capabilities](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L607-L673)
-    succinctly and supports
-    [extensibility](https://github.com/sqlxpert/lights-off-aws/tree/main#extensibility:~:text=Extensibility%20details...).
+    at a glance and supports
+    [extensibility](https://github.com/sqlxpert/lights-off-aws/tree/main#extensibility:~:text=Extensibility%20details...)
 - OpenAPI provides a clear
   [API&nbsp;specification](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/main/python_docker/hello_api.openapi.yaml)
   and automatic input validation with
@@ -153,4 +152,23 @@ Jump to:
 
 </details>
 
-<!-- If last word changes, update Pinned text fragment prefix- above. -->
+<details name="competencies">
+  <summary>Reliability</summary>
+
+<br/>
+
+- Diagnosing and
+  [fixing race conditions](https://github.com/sqlxpert/stay-stopped-aws-rds-aurora#perspective:~:text=idempotence%2C%20race%20conditions,latent%20bugs...)
+  (timing bugs)
+- Assessing idempotence:
+  ["5&nbsp;AWS&nbsp;Services, 5&nbsp;Different&nbsp;Approaches to Idempotence"](https://builder.aws.com/content/2xTBvqInpTdbmC91IDT1hFeZQMQ/5-aws-services-5-different-approaches-to-idempotence)
+- [Rejecting the legacy AWS SDK retry mode](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L225),
+  years
+  [in&nbsp;advance](https://aws.amazon.com/blogs/developer/announcing-updated-retry-behavior-for-aws-sdks-and-tools/#:~:text=currently%20default%20to,mode)
+- [Using AWS SDK pagination](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L303-L305)
+- Levering
+  [queues, retries, and timeouts](https://github.com/sqlxpert/lights-off-aws/blob/main/media/lights-off-aws-architecture-and-flow.png)
+
+</details>
+
+<!-- If last displayed word changes, update Pinned text fragment prefix- above. -->
