@@ -165,9 +165,8 @@ Jump to:
 - [Rejecting the legacy AWS SDK retry mode](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L225),
   years
   [in&nbsp;advance](https://aws.amazon.com/blogs/developer/announcing-updated-retry-behavior-for-aws-sdks-and-tools/#:~:text=currently%20default%20to,mode)
-- [Using AWS SDK pagination](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L303-L305)
-- Leveraging
-  [queues, retries, and timeouts](https://github.com/sqlxpert/lights-off-aws/blob/main/media/lights-off-aws-architecture-and-flow.png)
+- [AWS SDK pagination](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L303-L305)
+- [Queues, retries, and timeouts](https://github.com/sqlxpert/lights-off-aws/blob/main/media/lights-off-aws-architecture-and-flow.png)
 
 </details>
 
