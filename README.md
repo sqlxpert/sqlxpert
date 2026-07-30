@@ -66,7 +66,7 @@ Jump to:
   accommodate different kinds of inputs and different cardinalities.
 - A least-privilege
   [CloudFormation service role](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/main/cloudformation/step_stay_stopped_aws_rds_aurora_prereq.yaml)
-  protects each stack and "confused deputy" risk.
+  protects each workload and reduces "confused deputy" risk.
 - [Placeholder parameters](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L10-L20)
   help AWS&nbsp;Console users to name stacks and find documentation.
 
