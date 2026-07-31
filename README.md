@@ -11,9 +11,9 @@ Jump to:
 [Blog&nbsp;&nearr;](https://sqlxpert.github.io)
 <!-- markdownlint-enable MD041 -->
 
-## Competencies
+## Technical Competencies
 
-<details name="competencies">
+<details name="tech-competencies">
   <summary>Terraform</summary>
 
 <br/>
@@ -44,7 +44,7 @@ Jump to:
 
 </details>
 
-<details name="competencies">
+<details name="tech-competencies">
   <summary>CloudFormation</summary>
 
 <br/>
@@ -68,7 +68,7 @@ Jump to:
 
 </details>
 
-<details name="competencies">
+<details name="tech-competencies">
   <summary>IAM</summary>
 
 <br/>
@@ -106,7 +106,7 @@ Jump to:
 
 </details>
 
-<details name="competencies">
+<details name="tech-competencies">
   <summary>Python</summary>
 
 <br/>
@@ -131,7 +131,7 @@ Jump to:
 
 </details>
 
-<details name="competencies">
+<details name="tech-competencies">
   <summary>Containers/Docker</summary>
 
 <br/>
@@ -149,7 +149,7 @@ Jump to:
 
 </details>
 
-<details name="competencies">
+<details name="tech-competencies">
   <summary>Reliability</summary>
 
 <br/>
