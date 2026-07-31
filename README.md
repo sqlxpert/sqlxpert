@@ -113,7 +113,7 @@ Jump to:
 
 - Object-oriented programming (OOP):
   - [Harmonize AWS API inconsistencies](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L235-L461)
-    &mdash; method names; input argument names, types (ID versus ARN), and cardinality; and output object keys
+    &mdash; method names; input argument names, types (ID versus ARN), and cardinality; output object keys
   - [Accommodate disparate AWS resource types](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L464-L601)
   - Define
     [capabilities](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L607-L673)
