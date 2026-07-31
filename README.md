@@ -1,13 +1,12 @@
 <!-- markdownlint-disable MD041 -->
-<!-- Match Pinned text fragment prefix- to last displayed word, below. -->
 Jump to:
-[Pinned&nbsp;repos](https://github.com/sqlxpert#:~:text=orchestration.-,Pinned)
+[Pinned&nbsp;repos](#repos-pinned)
 &bull;
 [Contribution&nbsp;graph](https://github.com/sqlxpert#:~:text=contributions,-in%20the%20last%20year)
 &bull;
 [All&nbsp;repos&nbsp;&nearr;](https://github.com/sqlxpert?tab=repositories&q=&type=&language=&sort=stargazers)
 &bull;
-[LinkedIn&nbsp;&nearr;](https://www.linkedin.com/in/marcelin)
+[LinkedIn&#128274;&nearr;](https://www.linkedin.com/in/marcelin)
 &bull;
 [Blog&nbsp;&nearr;](https://sqlxpert.github.io)
 <!-- markdownlint-enable MD041 -->
@@ -169,4 +168,4 @@ Jump to:
 
 </details>
 
-<!-- If last displayed word changes, update Pinned text fragment prefix- above. -->
+<a id="repos-pinned" />
