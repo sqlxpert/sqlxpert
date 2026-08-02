@@ -13,10 +13,12 @@ Jump to:
 
 ## Technical Competencies
 
+Unfold (&nbsp;&#9656;&nbsp;) for short, specific examples.
+
 <details name="tech-competencies">
   <summary>Terraform</summary>
 
-<br/>
+---
 
 - Secure private network:
   - Editable
@@ -42,12 +44,14 @@ Jump to:
   (most users
   [forget `versionID`](https://github.com/cloudposse/terraform-aws-cloudformation-stack/blob/ce3265a/README.md?plain=1#L68)&nbsp;)
 
+---
+
 </details>
 
 <details name="tech-competencies">
   <summary>CloudFormation</summary>
 
-<br/>
+---
 
 - Same template for individual stacks or a centrally-managed, multi-account, multi-region Stack**Set**:
   - ["Partial ARN" parameters](https://github.com/sqlxpert/lights-off-aws/blob/8fb1e8c/cloudformation/lights_off_aws.yaml#L302-L315)
@@ -66,12 +70,14 @@ Jump to:
 - [Placeholder parameters](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L10-L20)
   help new (AWS&nbsp;Console) users to name stacks and find documentation
 
+---
+
 </details>
 
 <details name="tech-competencies">
   <summary>IAM</summary>
 
-<br/>
+---
 
 - Enforce KMS encryption in S3:
   - One central
@@ -104,12 +110,14 @@ Jump to:
   - [CloudFormation parameter](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L136-L144)
   - [Insertion into IAM policy](https://github.com/sqlxpert/step-stay-stopped-aws-rds-aurora/blob/d6d3838/cloudformation/step_stay_stopped_aws_rds_aurora.yaml#L672)
 
+---
+
 </details>
 
 <details name="tech-competencies">
   <summary>Python</summary>
 
-<br/>
+---
 
 - Object-oriented programming (OOP):
   - [Harmonize AWS API inconsistencies](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L235-L461)
@@ -129,12 +137,14 @@ Jump to:
   machine-readable and searchable by humans
 - [Self-documenting regular expression](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L26-L45)
 
+---
+
 </details>
 
 <details name="tech-competencies">
   <summary>Containers/Docker</summary>
 
-<br/>
+---
 
 - [Simple container definition](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/main/python_docker/Dockerfile)
   yields a
@@ -147,12 +157,14 @@ Jump to:
   [load balancing](https://github.com/sqlxpert/docker-python-openapi-kafka-terraform-cloudformation-aws/blob/main/terraform/elb.tf)
   support scalable orchestration
 
+---
+
 </details>
 
 <details name="tech-competencies">
   <summary>Reliability</summary>
 
-<br/>
+---
 
 - Diagnosing and fixing race conditions (timing bugs):
   - [Comparison with existing solutions](https://github.com/sqlxpert/stay-stopped-aws-rds-aurora#perspective:~:text=About%20idempotence%2C%20race%20conditions,latent%20bugs...)
@@ -164,6 +176,8 @@ Jump to:
 - [AWS SDK pagination](https://github.com/sqlxpert/lights-off-aws/blob/c86306c/python/lights_off_aws.py#L303-L305)
 - [Loose coupling](https://github.com/sqlxpert/lights-off-aws/blob/main/media/lights-off-aws-architecture-and-flow.png)
   &mdash; queue, retries, timeout, dead-letter queue
+
+---
 
 </details>
 
