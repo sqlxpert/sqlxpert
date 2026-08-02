@@ -13,7 +13,7 @@ Jump to:
 
 ## Technical Competencies
 
-Unfold (&nbsp;&#9656;&nbsp;) for short, specific examples.
+Unfold (&nbsp;&blacktriangleright;&nbsp;) for short, specific examples.
 
 <details name="tech-competencies">
   <summary>Terraform</summary>
